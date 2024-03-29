@@ -1,0 +1,92 @@
+.gradient-background {
+    background: linear-gradient(300deg, #84a5af, #3180e6, #d1cc98);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-top: 0%;
+    color: aliceblue;
+  }
+
+  
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#specs {
+    display: flex;
+    gap: 40px;
+    margin: 40px;
+    justify-content: space-around;
+
+}
+
+#generations-storyline {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.generations-article {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+
+
+.generations-article.first-article {
+    font-style: italic;
+}
+
+#twoCars{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.separator-between-sections {
+    background-color: rgb(154, 191, 227);
+    height: 0.5rem;
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+
+section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+
+.mr2art {
+  position: absolute;
+  left: 77rem;
+  height:180px;
+  width:270px;
+}
+
+#myCarousel{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 3rem;
+}
+
+#lastun{
+  
+  margin-left: 1%;
+  margin-right: 1%;
+  color: azure
+}
+
+.lastAdj{
+  margin-left: 1%;
+  ;
+}
